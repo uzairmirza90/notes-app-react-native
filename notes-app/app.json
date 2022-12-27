@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "Notes",
+    "slug": "uzairnotes-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/blue-notes-icon.png",
+    "splash": {
+      "image": "./assets/splashScreen.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.uzairmirza.notesapp"
+    },
+    "android": {
+      "package": "uzair.notesapp",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
